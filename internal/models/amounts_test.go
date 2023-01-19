@@ -1,8 +1,9 @@
 package models_test
 
 import (
-	"github.com/aclindsa/moneygo/internal/models"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func expectedPrecision(t *testing.T, amount *models.Amount, precision uint64) {

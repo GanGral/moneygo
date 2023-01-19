@@ -1,12 +1,13 @@
 package integration_test
 
 import (
-	"github.com/aclindsa/moneygo/internal/handlers"
-	"github.com/aclindsa/moneygo/internal/models"
 	"net/http"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/handlers"
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func createPrice(client *http.Client, price *models.Price) (*models.Price, error) {

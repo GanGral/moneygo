@@ -3,10 +3,11 @@ package handlers
 import (
 	"errors"
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/ofxgo"
 	"io"
 	"math/big"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/aclindsa/ofxgo"
 )
 
 type OFXImport struct {

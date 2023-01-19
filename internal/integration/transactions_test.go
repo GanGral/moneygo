@@ -2,13 +2,14 @@ package integration_test
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/handlers"
-	"github.com/aclindsa/moneygo/internal/models"
 	"net/http"
 	"net/url"
 	"strconv"
 	"testing"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/handlers"
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func createTransaction(client *http.Client, transaction *models.Transaction) (*models.Transaction, error) {

@@ -4,13 +4,16 @@ package handlers
 
 import (
 	"errors"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
 	"log"
 	"net/http"
 	"net/url"
 	"strconv"
 	"strings"
+
+	//"github.com/aclindsa/moneygo/internal/models"
+	//"github.com/aclindsa/moneygo/internal/store"
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 func SearchSecurityTemplates(search string, _type models.SecurityType, limit int64) []*models.Security {

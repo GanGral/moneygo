@@ -3,11 +3,12 @@ package integration_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
 	"net/http"
 	"strings"
 	"testing"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 // Needed because handlers.User doesn't allow Password to be written to JSON

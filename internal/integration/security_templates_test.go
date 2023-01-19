@@ -1,10 +1,11 @@
 package integration_test
 
 import (
-	"github.com/aclindsa/moneygo/internal/handlers"
-	"github.com/aclindsa/moneygo/internal/models"
 	"io/ioutil"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/handlers"
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func TestSecurityTemplates(t *testing.T) {

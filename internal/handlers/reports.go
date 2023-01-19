@@ -1,11 +1,12 @@
 package handlers
 
 import (
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/reports"
-	"github.com/aclindsa/moneygo/internal/store"
 	"log"
 	"net/http"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/reports"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 func ReportTabulationHandler(tx store.Tx, r *http.Request, user *models.User, reportid int64) ResponseWriterWriter {

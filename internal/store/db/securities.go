@@ -2,8 +2,9 @@ package db
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 // MaxPrexision denotes the maximum valid value for models.Security.Precision.

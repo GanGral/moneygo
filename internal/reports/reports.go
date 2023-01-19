@@ -4,13 +4,13 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
-	"github.com/yuin/gopher-lua"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
-//type and value to store user in lua's Context
+// type and value to store user in lua's Context
 type key int
 
 const (

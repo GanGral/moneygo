@@ -1,9 +1,10 @@
 package integration_test
 
 import (
-	"github.com/aclindsa/moneygo/internal/models"
 	"net/http"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func importGnucash(client *http.Client, filename string) error {

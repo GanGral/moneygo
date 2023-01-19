@@ -1,10 +1,11 @@
 package integration_test
 
 import (
-	"github.com/aclindsa/moneygo/internal/handlers"
 	"net/http"
 	"strconv"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/handlers"
 )
 
 func createUser(user *User) (*User, error) {

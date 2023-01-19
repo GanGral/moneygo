@@ -2,7 +2,8 @@ package db
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func (tx *Tx) UsernameExists(username string) (bool, error) {

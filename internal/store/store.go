@@ -1,8 +1,9 @@
 package store
 
 import (
-	"github.com/aclindsa/moneygo/internal/models"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 type UserStore interface {

@@ -2,10 +2,11 @@ package integration_test
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
 	"net/http"
 	"strconv"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func importOFX(client *http.Client, accountid int64, filename string) error {

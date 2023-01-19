@@ -3,15 +3,16 @@ package db
 import (
 	"database/sql"
 	"fmt"
+	"log"
+	"strings"
+
+	"github.com/GanGral/moneygo/internal/config"
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 	"github.com/aclindsa/gorp"
-	"github.com/aclindsa/moneygo/internal/config"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
 	_ "github.com/mattn/go-sqlite3"
-	"log"
-	"strings"
 )
 
 // luaMaxLengthBuffer is intended to be enough bytes such that a given string

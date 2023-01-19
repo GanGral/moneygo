@@ -2,8 +2,9 @@ package db
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func (tx *Tx) InsertSession(session *models.Session) error {

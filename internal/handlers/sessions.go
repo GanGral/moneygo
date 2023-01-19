@@ -2,11 +2,12 @@ package handlers
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 func GetSession(tx store.Tx, r *http.Request) (*models.Session, error) {

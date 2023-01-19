@@ -2,9 +2,10 @@ package integration_test
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
 	"net/http"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 type LuaTest struct {

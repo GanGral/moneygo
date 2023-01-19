@@ -3,10 +3,11 @@ package db
 import (
 	"errors"
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
 	"math/big"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 // Split is a mirror of models.Split with the Amount broken out into whole and

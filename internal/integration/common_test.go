@@ -3,10 +3,6 @@ package integration_test
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/aclindsa/moneygo/internal/config"
-	"github.com/aclindsa/moneygo/internal/handlers"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store/db"
 	"io"
 	"io/ioutil"
 	"log"
@@ -15,6 +11,11 @@ import (
 	"net/http/httptest"
 	"os"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/config"
+	"github.com/GanGral/moneygo/internal/handlers"
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store/db"
 )
 
 var server *httptest.Server

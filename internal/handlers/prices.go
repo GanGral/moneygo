@@ -1,10 +1,11 @@
 package handlers
 
 import (
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
 	"log"
 	"net/http"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 func CreatePriceIfNotExist(tx store.Tx, price *models.Price) error {

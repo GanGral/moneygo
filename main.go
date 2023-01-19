@@ -4,10 +4,6 @@ package main
 
 import (
 	"flag"
-	"github.com/aclindsa/moneygo/internal/config"
-	"github.com/aclindsa/moneygo/internal/handlers"
-	"github.com/aclindsa/moneygo/internal/store/db"
-	"github.com/kabukky/httpscerts"
 	"log"
 	"net"
 	"net/http"
@@ -15,6 +11,11 @@ import (
 	"os"
 	"path"
 	"strconv"
+
+	"github.com/GanGral/moneygo/internal/config"
+	"github.com/GanGral/moneygo/internal/handlers"
+	"github.com/GanGral/moneygo/internal/store/db"
+	"github.com/kabukky/httpscerts"
 )
 
 var configFile string

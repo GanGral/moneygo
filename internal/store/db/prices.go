@@ -2,8 +2,9 @@ package db
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 // Price is a mirror of models.Price with the Value broken out into whole and

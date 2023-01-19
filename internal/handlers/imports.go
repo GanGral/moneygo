@@ -2,15 +2,16 @@ package handlers
 
 import (
 	"encoding/json"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
-	"github.com/aclindsa/ofxgo"
 	"io"
 	"log"
 	"math/big"
 	"net/http"
 	"strings"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
+	"github.com/aclindsa/ofxgo"
 )
 
 type OFXDownload struct {

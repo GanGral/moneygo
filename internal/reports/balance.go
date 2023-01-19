@@ -1,8 +1,7 @@
 package reports
 
 import (
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/yuin/gopher-lua"
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 type Balance struct {

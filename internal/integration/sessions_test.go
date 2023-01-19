@@ -2,12 +2,13 @@ package integration_test
 
 import (
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/handlers"
-	"github.com/aclindsa/moneygo/internal/models"
 	"net/http"
 	"net/http/cookiejar"
 	"net/url"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/handlers"
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func newSession(user *User) (*http.Client, error) {

@@ -1,11 +1,12 @@
 package integration_test
 
 import (
-	"github.com/aclindsa/moneygo/internal/handlers"
-	"github.com/aclindsa/moneygo/internal/models"
 	"net/http"
 	"strconv"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/handlers"
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 func createReport(client *http.Client, report *models.Report) (*models.Report, error) {

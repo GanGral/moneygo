@@ -1,8 +1,9 @@
 package config_test
 
 import (
-	"github.com/aclindsa/moneygo/internal/config"
 	"testing"
+
+	"github.com/GanGral/moneygo/internal/config"
 )
 
 func TestSqliteHTTPSConfig(t *testing.T) {

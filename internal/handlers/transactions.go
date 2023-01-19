@@ -2,13 +2,14 @@ package handlers
 
 import (
 	"errors"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
 	"log"
 	"math/big"
 	"net/http"
 	"net/url"
 	"strconv"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 // Return a map of security ID's to big.Rat's containing the amount that

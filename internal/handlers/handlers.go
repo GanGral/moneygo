@@ -1,13 +1,14 @@
 package handlers
 
 import (
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
 	"log"
 	"net/http"
 	"path"
 	"strconv"
 	"strings"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 // But who writes the ResponseWriterWriter?

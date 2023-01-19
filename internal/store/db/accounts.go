@@ -2,8 +2,9 @@ package db
 
 import (
 	"errors"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 func (tx *Tx) GetAccount(accountid int64, userid int64) (*models.Account, error) {

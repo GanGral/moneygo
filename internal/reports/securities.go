@@ -3,10 +3,10 @@ package reports
 import (
 	"context"
 	"errors"
-	"github.com/aclindsa/moneygo/internal/models"
-	"github.com/aclindsa/moneygo/internal/store"
-	"github.com/yuin/gopher-lua"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
+	"github.com/GanGral/moneygo/internal/store"
 )
 
 const luaSecurityTypeName = "security"

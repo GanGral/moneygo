@@ -6,12 +6,13 @@ import (
 	"encoding/xml"
 	"errors"
 	"fmt"
-	"github.com/aclindsa/moneygo/internal/models"
 	"io"
 	"log"
 	"math"
 	"net/http"
 	"time"
+
+	"github.com/GanGral/moneygo/internal/models"
 )
 
 type GnucashXMLCommodity struct {
